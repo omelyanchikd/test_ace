@@ -17,9 +17,17 @@
       "price": 5,
       "plan": 1000,
       "salary_budget": 200,
-      "demand_elasticity": -5,
+      "demand_elasticity": -25,
       "labor_productivity": 100,
       "learnings": [
+        {
+          "method": "svm",
+          "count": 1
+        },
+        {
+          "method": "budget",
+          "count": 1
+        },
         {
           "method": "qlearning",
           "count": 1
@@ -61,6 +69,10 @@
           "count": 1
         },
         {
+          "method": "regression_decision_tree",
+          "count": 1
+        },
+        {
           "method": "perceptron",
           "count": 1
         }
@@ -95,23 +107,26 @@
       ]
     },
     "household_config": {
-      "consumption_need": null,
-      "condumption_budget": null,
-      "count": 50
+      "count": 500,
+      "consumption_need": 3,
+      "consumption_budget": 20,
+      "money": 0
+
     },
     "government_config": {
-      "import_tax": 1.0,
-      "coefficient_help": -1.0,
-      "income_tax": 1.0,
-      "minimal_help": 1.0,
-      "profit_tax": 1.0
+      "money": 100000,
+      "import_tax": 0.1,
+      "coefficient_help": 0.7,
+      "income_tax": 0.3,
+      "minimal_help": 10,
+      "profit_tax": 0.2
     },
     "outside_world_config": {
-      "exchange_rate": null,
-      "raw_price": null,
+      "exchange_rate": 1.0,
+      "raw_price": 3,
       "sell_probability": null,
-      "capital_price": null,
-      "good_price": null
+      "capital_price": 5,
+      "production_price": 10
     }
   }
 }

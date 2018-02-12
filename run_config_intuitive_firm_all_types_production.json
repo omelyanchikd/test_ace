@@ -1,0 +1,86 @@
+[
+{
+  "model": "models.modelrunconfiguration",
+  "pk": 3,
+  "fields": {
+    "title": null,
+    "created_at": "2017-07-22T17:29:21.723Z",
+    "iterations": 100,
+    "initial_money": 70000,
+    "household_birth": 70,
+    "firm_birth": null,
+    "money_growth": 7000,
+    "raw_firm_config": null,
+    "capital_firm_config": null,
+    "production_firm_config": {
+      "money": 1000,
+      "salary": 20,
+      "price": 25,
+      "labor_capacity": 10,
+      "plan": 10,
+      "salary_budget": 200,
+      "demand_elasticity": -25.0,
+      "labor_productivity": 1.0,
+      "learnings": [
+        {
+          "method": "hierarchical",
+          "count": 1
+        },
+        {
+          "method": "qlearning",
+          "count": 1
+        },
+        {
+          "method": "intuitive",
+          "count": 1
+        },
+        {
+          "method": "extrapolation",
+          "count": 1
+        },{
+          "method": "oligopoly",
+          "count": 1
+        },{
+          "method": "moses",
+          "count": 1
+        },{
+          "method": "rational",
+          "count": 1
+        },{
+          "method": "random",
+          "count": 1
+        },{
+          "method": "nonconscious",
+          "count": 1
+        },{
+          "method": "classification_decision_tree",
+          "count": 1
+        },
+        {
+          "method": "regression_decision_tree",
+          "count": 1
+        },
+        {
+          "method": "perceptron",
+          "count": 1
+        },
+        {
+          "method": "svm",
+          "count": 1
+        },
+        {
+          "method": "budget",
+          "count": 1
+        }
+      ]
+    },
+    "household_config": {
+      "consumption_need": null,
+      "condumption_budget": null,
+      "count": 700
+    },
+    "government_config": null,
+    "outside_world_config": null
+  }
+}
+]

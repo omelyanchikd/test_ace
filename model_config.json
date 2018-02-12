@@ -9,10 +9,10 @@
       "salary": true,
       "labor_capacity": false,
       "salary_budget": false,
-      "plan": false,
+      "plan": true,
       "raw_need": null,
       "capital_need": null,
-      "price": true,
+      "price": false,
       "capital_budget": null,
       "raw_budget": null
     },
@@ -20,21 +20,21 @@
       "salary": true,
       "labor_capacity": false,
       "salary_budget": false,
-      "plan": false,
-      "price": true
+      "plan": true,
+      "price": false
     },
     "capital_firm_structure": {
       "salary": true,
       "labor_capacity": false,
       "salary_budget": false,
-      "plan": false,
-      "price": true,
+      "plan": true,
+      "price": false,
       "raw_need": null,
       "raw_budget": null
     },
     "household_structure": {
-      "consumption_budget": false,
-      "consumption_need": false
+      "consumption_budget": true,
+      "consumption_need": true
     },
     "government_structure": {
       "import_tax": false,

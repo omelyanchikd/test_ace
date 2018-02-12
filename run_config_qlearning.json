@@ -1,0 +1,41 @@
+[
+{
+  "model": "models.modelrunconfiguration",
+  "pk": 3,
+  "fields": {
+    "title": null,
+    "created_at": "2017-07-22T17:29:21.723Z",
+    "iterations": 50,
+    "initial_money": 100000,
+    "household_birth": 10,
+    "firm_birth": null,
+    "money_growth": 1000,
+    "raw_firm_config": null,
+    "capital_firm_config": null,
+    "production_firm_config": {
+      "money": 1000,
+      "salary": 20,
+      "price": 5,
+      "labor_capacity": 10,
+      "plan": 10,
+      "salary_budget": 200,
+      "demand_elasticity": -25.0,
+      "labor_productivity": 1.0,
+      "learnings": [
+        {
+          "method": "qlearning",
+          "count": 10
+        }
+      ]
+    },
+    "household_config": {
+      "consumption_need": 3,
+      "consumption_budget": 20,
+      "count": 500,
+      "money": 0
+    },
+    "government_config": null,
+    "outside_world_config": null
+  }
+}
+]
